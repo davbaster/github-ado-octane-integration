@@ -10,7 +10,7 @@ jobs:
 - job: A
   dependsOn: AlmOctanePipelineStart
   steps:
-  - bash: echo "A"
+  - bash: echo "A."
 
 - job: B
   dependsOn: AlmOctanePipelineStart
