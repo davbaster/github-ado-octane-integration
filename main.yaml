@@ -6,6 +6,7 @@ jobs:
     inputs:
       OctaneServiceConnection: 'github-ado-alm'
       WorkspaceList: '9001'
+      GithubRepositoryConnection: 'github.com_davbaster'
 
 - job: A
   dependsOn: AlmOctanePipelineStart
